@@ -5,6 +5,7 @@
 - Added an option to use each screen background's upper 19 pixels in place of a separate top-bar image.
 - Updated the layout previews to follow the selected top-bar mode.
 - Kept existing projects compatible, with separate top-bar images remaining the default.
+- Updated the bundled sources and compatibility information for DS Style v7.3.
 
 ## v1.9
 

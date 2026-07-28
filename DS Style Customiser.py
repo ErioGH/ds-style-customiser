@@ -20,7 +20,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageTk
 
 APP_NAME = "DS Style Customiser"
 CUSTOMISER_VERSION = "2.0"
-DS_STYLE_VERSION = "7.2"
+DS_STYLE_VERSION = "7.3"
 PROJECT_SCHEMA_VERSION = 2
 MODEL_DE = "omega_de"
 MODEL_ORIGINAL = "original_omega"
@@ -363,7 +363,7 @@ TEXT_TRANSLATIONS = {
         "DSTEXT_ROM_MENU_ADDON": "Arrancar con addon",
         "DSTEXT_ROM_MENU_WRITE_NOR": "Escribir NOR limpio",
         "DSTEXT_ROM_MENU_WRITE_NOR_ADDON": "Escribir NOR con addon",
-        "DSTEXT_ROM_MENU_SAVE_TYPE": "Tipo de guardado",
+        "DSTEXT_ROM_MENU_SAVE_TYPE": "Tipo SAV",
         "DSTEXT_ROM_MENU_CHEAT": "Trucos",
         "DSTEXT_NOR_MENU_DIRECT": "Arranque directo",
         "DSTEXT_NOR_MENU_DELETE": "Borrar",
@@ -474,7 +474,7 @@ TEXT_TRANSLATIONS = {
         "DSTEXT_ROM_MENU_ADDON": "Demarrer avec addon",
         "DSTEXT_ROM_MENU_WRITE_NOR": "Ecrire NOR propre",
         "DSTEXT_ROM_MENU_WRITE_NOR_ADDON": "Ecrire NOR avec addon",
-        "DSTEXT_ROM_MENU_SAVE_TYPE": "Type sauvegarde",
+        "DSTEXT_ROM_MENU_SAVE_TYPE": "Type sauv.",
         "DSTEXT_ROM_MENU_CHEAT": "Codes",
         "DSTEXT_NOR_MENU_DIRECT": "Demarrage direct",
         "DSTEXT_NOR_MENU_DELETE": "Supprimer",
@@ -588,7 +588,7 @@ TEXT_TRANSLATIONS.update({
         "DSTEXT_ROM_MENU_ADDON": "Arrancar com addon",
         "DSTEXT_ROM_MENU_WRITE_NOR": "Escrever NOR limpo",
         "DSTEXT_ROM_MENU_WRITE_NOR_ADDON": "Escrever NOR com addon",
-        "DSTEXT_ROM_MENU_SAVE_TYPE": "Tipo de save",
+        "DSTEXT_ROM_MENU_SAVE_TYPE": "Tipo save",
         "DSTEXT_ROM_MENU_CHEAT": "Cheats",
         "DSTEXT_NOR_MENU_DIRECT": "Arranque direto",
         "DSTEXT_NOR_MENU_DELETE": "Apagar",
@@ -924,7 +924,7 @@ TEXT_TRANSLATIONS.update({
         "DSTEXT_ROM_MENU_ADDON": "Avvia con addon",
         "DSTEXT_ROM_MENU_WRITE_NOR": "Scrivi NOR pulito",
         "DSTEXT_ROM_MENU_WRITE_NOR_ADDON": "Scrivi NOR con addon",
-        "DSTEXT_ROM_MENU_SAVE_TYPE": "Tipo salvataggio",
+        "DSTEXT_ROM_MENU_SAVE_TYPE": "Tipo salv.",
         "DSTEXT_ROM_MENU_CHEAT": "Trucchi",
         "DSTEXT_NOR_MENU_DIRECT": "Avvio diretto",
         "DSTEXT_NOR_MENU_DELETE": "Elimina",
