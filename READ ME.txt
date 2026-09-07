@@ -1,8 +1,8 @@
 [INTRO]
 
-Thank you for downloading DS Style Customiser v2.0.
+Thank you for downloading DS Style Customiser v2.1.
 
-For DS Style v7.3.
+For DS Style v7.4.
 
 DS Style Customiser lets you create a personalised DS Style kernel while keeping the original source untouched.
 
@@ -48,6 +48,20 @@ The Images page offers two ways to handle the top 19 pixels of each screen:
 Separate image keeps the standard DS Style layout and places the selected top bar over each background.
 
 Use screen background displays the upper 19 pixels of each 240 x 160 background instead. Separate top bar images are ignored, allowing each screen to use one continuous full-screen design.
+
+#####################################################################################
+
+[FONTS]
+
+Use the Font page to choose the launcher font and preview it on the project's actual Settings screen at the Game Boy Advance's native resolution.
+
+The alternatives are native bitmap fonts made for small pixel grids: Spleen 6x12, Tamzen 6x12, Tamzen 6x12 Bold and GalmuriMono9. They are imported without scaling or antialiasing.
+
+Every font keeps the same character cell and spacing as DS Style, so existing layouts, alignment and scrolling behaviour remain compatible.
+
+Accented characters are matched to each font, including Turkish forms such as the dotless i.
+
+The included alternative fonts are distributed under their respective open-source licences. Full licence notices are included beside the customiser.
 
 #####################################################################################
 

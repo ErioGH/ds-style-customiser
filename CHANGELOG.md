@@ -1,5 +1,15 @@
 # Changelog
 
+## v2.1
+
+- Added native bitmap launcher font selection with an accurate project Settings-screen preview.
+- Added Spleen 6x12, Tamzen 6x12, Tamzen 6x12 Bold, and GalmuriMono9 font presets.
+- Kept launcher spacing, alignment, scrolling, and supported accented characters compatible across every font.
+- Preserved selected fonts when importing or converting projects.
+- Preserved readable version numbers such as `v7.3` in imported and updated project names.
+- Bundled the alternative fonts' open-source licence notices.
+- Updated the bundled kernel sources and compatibility information for DS Style v7.4.
+
 ## v2.0
 
 - Added an option to use each screen background's upper 19 pixels in place of a separate top-bar image.

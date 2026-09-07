@@ -16,7 +16,8 @@ The [DS Style Manager](https://frankiet19.github.io/omega-de-ds-style-kernel/man
 - Non-destructive importing of older projects onto the current source
 - Conversion between Original Omega and Omega Definitive Edition project copies
 - Support for EZ-FLASH OMEGA and OMEGA Definitive Edition builds
-- Theme, colour, image, sound, and interface-text customisation
+- Theme, colour, image, sound, font, and interface-text customisation
+- Native bitmap launcher font presets with project-accurate Settings-screen previews
 - Optional full-screen backgrounds in place of separate top-bar images
 - Start-screen and thumbnail-view layout editors with previews
 - Custom language text and preset translations
