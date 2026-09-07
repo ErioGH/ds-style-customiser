@@ -9,6 +9,7 @@
 - Preserved readable version numbers such as `v7.3` in imported and updated project names.
 - Bundled the alternative fonts' open-source licence notices.
 - Updated the bundled kernel sources and compatibility information for DS Style v7.4.
+- Refreshed the bundled Omega Definitive Edition source with the v7.4 Clean Boot compatibility fix.
 
 ## v2.0
 
