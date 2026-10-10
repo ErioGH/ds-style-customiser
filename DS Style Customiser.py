@@ -1279,9 +1279,9 @@ TEXT_TRANSLATIONS.update({
         "DSTEXT_STATUS_SAVE_NOT_FOUND": ".sav не найден",
         "DSTEXT_STATUS_NOR_FULL": "NOR заполнена!       ",
         "DSTEXT_ROM_MENU_CLEAN": "Чистый запуск",
-        "DSTEXT_ROM_MENU_ADDON": "Запуск с дополнением",
+        "DSTEXT_ROM_MENU_ADDON": "Запуск с аддоном",
         "DSTEXT_ROM_MENU_WRITE_NOR": "Запись в NOR",
-        "DSTEXT_ROM_MENU_WRITE_NOR_ADDON": "Запись в NOR с дополн.",
+        "DSTEXT_ROM_MENU_WRITE_NOR_ADDON": "Запись в NOR с аддоном",
         "DSTEXT_ROM_MENU_SAVE_TYPE": "Тип сохранения",
         "DSTEXT_ROM_MENU_CHEAT": "Читы",
         "DSTEXT_NOR_MENU_DIRECT": "Прямой запуск",
@@ -1749,8 +1749,7 @@ LANGUAGE_SLOTS = [
     ("Nederlands", "Dutch", 0xE108),
     ("Svenska", "Swedish", 0xE109),
     ("Suomi", "Finnish", 0xE10A),
-    ("ภาษาไทย", "Thai", 0xE10B),
-    ("Русский", "Russian", 0xE10C),
+    ("Русский", "Russian", 0xE10B),
 ]
 
 LANGUAGE_SLOT_NAMES = [slot[0] for slot in LANGUAGE_SLOTS]
@@ -4556,8 +4555,10 @@ class CustomiserApp(tk.Tk):
                 out += '\\"'
             elif ch == "\n":
                 out += "\\n"
-            elif 32 <= code < 127:
+            elif (32 <= code < 127):
                 out += ch
+            # elif (1040 <= code <= 1103) or (code in (203, 1005)):
+            #     out += ch
             else:
                 out += "".join(f"\\{byte:03o}" for byte in ch.encode(encoding))
         return out + '"'
@@ -4727,6 +4728,7 @@ class CustomiserApp(tk.Tk):
         for key in keys:
             lines.append("        " + self.c_string_literal(thai.get(key, TEXT_DEFAULTS[key])) + ",")
         lines.append("    } },")
+        
         lines.extend([
             "};",
             "#define LAUNCHER_LANGUAGE_COUNT (sizeof(launcher_language_packs) / sizeof(launcher_language_packs[0]))",
